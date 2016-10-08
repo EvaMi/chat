@@ -21,10 +21,10 @@
     </div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://localhost:8008/socket.io/socket.io.js"></script>
+<script src="http://chat-chatty.44fs.preview.openshiftapps.com/"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        var socket = io.connect('http://localhost:8008');
+        var socket = io.connect('http://chat-chatty.44fs.preview.openshiftapps.com/');
         var name = 'Jane_' + (Math.round(Math.random() * 10000));
         var messages = $("#messages");
         var message_txt = $("#message_text")
